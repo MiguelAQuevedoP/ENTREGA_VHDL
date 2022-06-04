@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<!--Created by Liquid XML 2008 (www.liquid-technologies.com) for Altera-->
+<ProgramExecution xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+	<QuartusExecution>
+		<AddressBits>64</AddressBits>
+		<ApplicationError>
+		<Bits>64</Bits>
+		<CommandLine>quartus "C:\Users\Bugs Deejay\Desktop\forMemory W\forMemory W\forMemory\output_ports\output_ports.qpf"</CommandLine>
+		<ErrorMessage>Uncaught C++ Exception</ErrorMessage>
+		<Line>0</Line>
+		<Platform>windows</Platform>
+		<SourceFile>unknown</SourceFile>
+		<StackTrace>
+	0x7ffd37624fd8: (RaiseException + 0x68)
+	 0x52b004d5: (?_is_exception_typeof@@YAHAEBVtype_info@@PEAU_EXCEPTION_POINTERS@@@Z + 0x231)
+	0x7ffd39b91425: (RtlCaptureContext2 + 0x4a5)
+	 0x52c8a7c1: (?notifyInternal@QCoreApplication@@AEAA_NPEAVQObject@@PEAVQEvent@@@Z + 0x71)
+	 0x52ec9d74: (?close_helper@QWidgetPrivate@@QEAA_NW4CloseMode@1@@Z + 0xa4)
+	 0x52ee46c0: (?restoreOverrideCursor@QApplication@@SAXXZ + 0x10b0)
+	0x7ffd38e0e857: (CallWindowProcW + 0x3f7)
+	0x7ffd38e0e3db: (DispatchMessageW + 0x39b)
+	0x7ffd38e20bc2: (SendMessageTimeoutW + 0x142)
+	0x7ffd39b90b73: (KiUserCallbackDispatcher + 0x23)
+	0x7ffd379c1123: (NtUserMessageCall + 0x13)
+	0x7ffd38e0caf4: (GetWindowTextW + 0x804)
+	0x7ffd38e0c2ae: (IsIconic + 0xbe)
+	0x7ffd34c096f1: (GetUserColorPreference + 0x1271)
+	0x7ffd34c23451: (Ordinal96 + 0x491)
+	0x7ffd34c0b7d8: (IsCompositionActive + 0x1fb8)
+	0x7ffd34c0b240: (IsCompositionActive + 0x1a20)
+	0x7ffd38e0c7e2: (GetWindowTextW + 0x4f2)
+	 0x53359b17: (?sendEvent@QInputContext@@QEAAXAEBVQInputMethodEvent@@@Z + 0x2e7)
+	 0x52ee5ebf: (?restoreOverrideCursor@QApplication@@SAXXZ + 0x28af)
+	0x7ffd38e0e857: (CallWindowProcW + 0x3f7)
+	0x7ffd38e0e3db: (DispatchMessageW + 0x39b)
+	0x7ffd38e20bc2: (SendMessageTimeoutW + 0x142)
+	0x7ffd39b90b73: (KiUserCallbackDispatcher + 0x23)
+	0x7ffd379c1123: (NtUserMessageCall + 0x13)
+	0x7ffd38e0caf4: (GetWindowTextW + 0x804)
+	0x7ffd38e0c2ae: (IsIconic + 0xbe)
+	0x7ffd34c096f1: (GetUserColorPreference + 0x1271)
+	0x7ffd34c233a6: (Ordinal96 + 0x3e6)
+	0x7ffd34c0b7d8: (IsCompositionActive + 0x1fb8)
+	0x7ffd34c0b240: (IsCompositionActive + 0x1a20)
+	0x7ffd38e0c7e2: (GetWindowTextW + 0x4f2)
+	 0x53359b17: (?sendEvent@QInputContext@@QEAAXAEBVQInputMethodEvent@@@Z + 0x2e7)
+	 0x52ee5ebf: (?restoreOverrideCursor@QApplication@@SAXXZ + 0x28af)
+	0x7ffd38e0e857: (CallWindowProcW + 0x3f7)
+	0x7ffd38e0e298: (DispatchMessageW + 0x258)
+	 0x52cb2f69: (?processEvents@QEventDispatcherWin32@@UEAA_NV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z + 0x3b9)
+	 0x52ee3564: (?translateTouchEvent@QApplicationPrivate@@QEAA_NAEBUtagMSG@@@Z + 0x884)
+	 0x52c89cf0: (?exec@QEventLoop@@QEAAHV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z + 0x230)
+	 0x52c8e5ff: (?exec@QCoreApplication@@SAHXZ + 0xdf)
+	0x7ff7eba6108e:
+	0x7ffd1097a7f8: (?msg_exe_fini@@YAXXZ + 0x58)
+	0x7ffd1097af3c: (?msg_exe_fini@@YAXXZ + 0x79c)
+	0x7ffd191f1f14: (??1MEM_SEGMENT_INTERNAL@@UEAA@XZ + 0x194)
+	0x7ffd1097b8bf: (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0x8f)
+	0x7ff7eba61ab2:
+	0x7ff7eba613de:
+	0x7ffd37f97033: (BaseThreadInitThunk + 0x13)
+	0x7ffd39b42650: (RtlUserThreadStart + 0x20)
+		</StackTrace>
+		<Subsystem>unknown</Subsystem>
+	</ApplicationError>
+	<Compilation>
+			<CompileID>0</CompileID>
+			<DeviceFamily/>
+			<IncrementalCompilation/>
+			<TopLevelEntityName/>
+		</Compilation>
+		<DateInvoked>2022/05/24 12:34:55</DateInvoked>
+		<ElapsedTime>194</ElapsedTime>
+		<IP>192.168.10.13</IP>
+		<IsInternal>false</IsInternal>
+		<IsQt>true</IsQt>
+		<License>
+			<Edition>Web Edition</Edition>
+			<LicenseHostID/>
+		</License>
+		<Machine>
+			<CPUCountLogical>8</CPUCountLogical>
+			<CPUCountPhysical>1</CPUCountPhysical>
+			<CPUSpeed>1992</CPUSpeed>
+			<Hostname>DESKTOP-8RN2KCI</Hostname>
+			<NIC>
+				<Address>0c9d92316a89</Address>
+			</NIC>
+			<NIC>
+				<Address>80c5f2eac544</Address>
+			</NIC>
+			<NIC>
+				<Address>80c5f2eac545</Address>
+			</NIC>
+			<NIC>
+				<Address>82c5f2eac545</Address>
+			</NIC>
+			<NIC>
+				<Address>92c5f2eac545</Address>
+			</NIC>
+			<OS>Windows 7</OS>
+			<OSAddressBits>64</OSAddressBits>
+			<OSVersion>6.2</OSVersion>
+			<Platform>windows</Platform>
+			<ScreenResolution>unknown</ScreenResolution>
+			<TotalPhysicalRAM>16266</TotalPhysicalRAM>
+			<TotalVirtualRAM>2432</TotalVirtualRAM>
+		</Machine>
+		<Name>quartus</Name>
+		<PeakMemoryUsed>0</PeakMemoryUsed>
+		<ProjectRevision>
+			<ProjectName/>
+			<Revision/>
+		</ProjectRevision>
+		<QuartusInstallation>
+			<InstallationID>13870902110857.165341232206736</InstallationID>
+			<Version>
+				<Build>162</Build>
+				<BuildSite>SJ</BuildSite>
+				<BuildSuffix/>
+				<Edition>Web Edition</Edition>
+				<ServicePack>0</ServicePack>
+				<VersionNumber>13.1</VersionNumber>
+			</Version>
+		</QuartusInstallation>
+		<QuartusUser>
+			<AlteraUserName/>
+			<FAEContactName/>
+			<TalkbackStatus>
+				<DateSet/>
+				<TalkbackOn>true</TalkbackOn>
+			</TalkbackStatus>
+			<UserID>13870902110857.16534123710744</UserID>
+			<UserName>Bugs Deejay</UserName>
+		</QuartusUser>
+	</QuartusExecution>
+	<SchemaVersion>schema_2013-01-18</SchemaVersion>
+</ProgramExecution>
+
